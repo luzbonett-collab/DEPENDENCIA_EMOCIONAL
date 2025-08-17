@@ -7,7 +7,7 @@ Este repositorio contiene un sitio web con información, recursos y videos para 
 Puedes ver el sitio publicado en GitHub Pages visitando la siguiente dirección:  
 https://tuusuario.github.io/nombre-del-repositorio/
 
-(Reemplaza `indice.html` y `deprndencia_emocional` por los datos reales de tu cuenta y repositorio.)
+(Reemplaza `index.html` y `luzbonett_collab` por los datos reales de tu cuenta y repositorio.)
 
 ## Autora
 
