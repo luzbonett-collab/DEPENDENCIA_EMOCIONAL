@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Mujeres y Dependencia Emocional</title>
+    <style>
+        body { font-family: Arial; background: #faf4fd; margin: 0; }
+        header { background: #c778bc; color: #fff; padding: 20px; text-align: center; }
+        nav { background: #eeb3fa; padding: 10px 0; text-align: center; }
+        nav button { margin: 0 8px; padding: 10px 20px; background: #a95bbf; color: #fff; border: none; border-radius: 5px; cursor: pointer;}
+        nav button:hover { background: #6d388d;}
+        section { display: none; margin: 30px auto; max-width: 700px; background: #fff; padding: 25px; border-radius: 8px; box-shadow: 0 2px 7px rgba(170,91,191,0.06);}
+        section.active { display: block; }
+        a { color: #a95bbf; text-decoration: underline; display: inline-block; margin: 4px 0; }
+        a:hover { color: #6d388d; }
+    </style>
+    <script>
+        function mostrarSeccion(id) {
+            document.querySelectorAll("section").forEach(function(sec) {
+                sec.classList.remove("active");
+            });
+            document.getElementById(id).classList.add("active");
+        }
+        window.onload = function() {
+            mostrarSeccion('inicio');
+        }
+    </script>
+</head>
+<body>
+    <header>
+        <h1>Mujeres y Dependencia Emocional</h1>
+        <p>Información, ayuda y recursos sobre la dependencia emocional femenina</p>
+    </header>
+    <nav>
+        <button onclick="mostrarSeccion('inicio')">Inicio</button>
+        <button onclick="mostrarSeccion('quees')">¿Qué es?</button>
+        <button onclick="mostrarSeccion('causas')">Causas</button>
+        <button onclick="mostrarSeccion('consecuencias')">Consecuencias</button>
+        <button onclick="mostrarSeccion('superar')">Superación</button>
+    </nav>
+    <section id="inicio" class="active">
+        <h2>¡Bienvenida!</h2>
+        <p>Explora recursos, artículos y videos para comprender y superar la dependencia emocional.</p>
+        <a href="https://www.google.com/search?q=dependencia+emocional+femenina" target="_blank">Buscar más en Google</a>
+        <a href="https://www.youtube.com/results?search_query=dependencia+emocional+mujer" target="_blank">Ver videos en YouTube</a>
+    </section>
+    <section id="quees">
+        <h2>¿Qué es la dependencia emocional?</h2>
+        <p>
+            La dependencia emocional es un patrón de comportamiento en el que una persona, por lo general mujeres aunque puede afectar a cualquier género, desarrolla una necesidad excesiva de afecto, reconocimiento y aprobación de su pareja u otra figura significativa. Esto puede llevar a situaciones de sumisión, miedo al abandono y dificultad para tomar decisiones por sí misma.<br>
+            Algunas señales: miedo constante a la soledad, necesidad de atención permanente, baja autoestima y dificultad para poner límites.<br>
+            <a href="https://psicologiaymente.com/clinica/dependencia-emocional" target="_blank">Artículo profundo sobre dependencia emocional</a><br>
+            <a href="https://www.google.com/search?q=dependencia+emocional+definicion" target="_blank">Buscar definiciones en Google</a>
+        </p>
+        <h4>Más ayuda en YouTube:</h4>
+        <a href="https://www.youtube.com/@psicologiaenpositivo" target="_blank">Psicología en Positivo</a><br>
+        <a href="https://www.youtube.com/@terapiaconana" target="_blank">Terapia con Ana</a>
+    </section>
+    <section id="causas">
+        <h2>Causas</h2>
+        <p>
+            Son muchas y variadas. Destacan:<br>
+            - Infancia con apego inseguro o ausencia de afecto.<br>
+            - Baja autoestima y carencia de modelos positivos.<br>
+            - Miedo irracional a la soledad y al abandono.<br>
+            - Relaciones tóxicas previas.<br>
+            - Influencia social y cultural.<br>
+        </p>
+        <a href="https://www.google.com/search?q=causas+dependencia+emocional+mujer" target="_blank">Leer más causas en Google</a>
+        <a href="https://www.youtube.com/results?search_query=causas+de+la+dependencia+emocional" target="_blank">Videos sobre causas</a>
+        <h4>Canales recomendados:</h4>
+        <a href="https://www.youtube.com/@psicologiaparatodos" target="_blank">Psicología Para Todos</a><br>
+        <a href="https://www.youtube.com/@psiconectar" target="_blank">Psiconectar</a>
+    </section>
+    <section id="consecuencias">
+        <h2>Consecuencias</h2>
+        <p>
+            Algunos efectos frecuentes son:<br>
+            - Ansiedad, depresión y aislamiento social.<br>
+            - Pérdida de autonomía y autoestima.<br>
+            - Permanecer en relaciones destructivas o tóxicas.<br>
+            - Dificultad para tomar decisiones personales.<br>
+            - Malestar físico y emocional.<br>
+        </p>
+        <a href="https://www.google.com/search?q=consecuencias+dependencia+emocional+mujer" target="_blank">Información ampliada en Google</a>
+        <a href="https://www.youtube.com/results?search_query=consecuencias+dependencia+emocional+mujer" target="_blank">Videos de consecuencias en YouTube</a>
+        <a href="https://www.youtube.com/@anaibanezpsicologa" target="_blank">Ana Ibañez (Psicóloga)</a>
+    </section>
+    <section id="superar">
+        <h2>¿Cómo superar la dependencia emocional?</h2>
+        <p>
+            - Reconocer el problema y querer cambiar.<br>
+            - Buscar ayuda profesional (psicólogos, terapeutas).<br>
+            - Fomentar la autoestima y el autocuidado.<br>
+            - Generar redes de apoyo con amistades y familiares.<br>
+            - Practicar actividades independientes.<br>
+        </p>
+        <a href="https://www.google.com/search?q=superar+dependencia+emocional+femenina" target="_blank">Cómo superar en Google</a>
+        <a href="https://www.youtube.com/results?search_query=superar+dependencia+emocional" target="_blank">Videos para superación en YouTube</a>
+        <h4>Canales y expertos:</h4>
+        <a href="https://www.youtube.com/@marianapuente" target="_blank">Mariana Puente Psicóloga</a><br>
+        <a href="https://www.youtube.com/@psicologiapravivir" target="_blank">Psicología Para Vivir</a>
+    </section>
+</body>
+</html>
